@@ -5,7 +5,7 @@ set +e
 git ci -am "Add all forgotten files..."
 set -e
 git co gh-pages
-rm dist/dist
+[[ -e dist/dist ]] && rm dist/dist
 cp -r dist/* .
 set +e
 git add .
