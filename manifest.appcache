@@ -1,16 +1,6 @@
-# Error: Unknown provider: aProvider <- a
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:2627
-    at getService (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2755)
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:2632
-    at getService (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2755)
-    at invoke (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2773)
-    at instantiate (http://localhost:3501/scripts/vendor/d10639ae.angular.js:2805)
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:4620
-    at update (http://localhost:3501/scripts/vendor/d10639ae.angular.js:13692)
-    at http://localhost:3501/scripts/vendor/d10639ae.angular.js:8002 (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Mon Dec 03 2012 23:47:15 GMT+0200 (IST)
+# Time: Tue Dec 04 2012 00:11:21 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/#/
@@ -31,10 +21,12 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
+http://localhost:3501/app/images/glyphicons-halflings-white.png?1354571281
+http://localhost:3501/app/images/glyphicons-halflings.png?1354571281
 http://www.google-analytics.com/ga.js
-scripts/c9e9b14b.scripts.js
+scripts/e9b04af3.scripts.js
 scripts/vendor/d10639ae.angular.js
-styles/051c0509.main.css
+styles/5021b0bb.main.css
 
 NETWORK:
 *
