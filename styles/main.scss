@@ -1,6 +1,6 @@
-//@import "compass_twitter_bootstrap";
-@import "tactile.scss"
-;
+@import "compass_twitter_bootstrap";
+@import "tactile.scss";
+
 $bg: #ECE37B;
 #register {
   background: $bg; /* Old browsers */
@@ -11,6 +11,26 @@ $bg: #ECE37B;
   background: -ms-linear-gradient(top,  $bg 0%, $bg 100%); /* IE10+ */
   background: linear-gradient(top,  $bg 0%,$bg 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$bg', endColorstr='$bg',GradientType=0 ); /* IE6-9 */
+}
 
 
+.speaker-image {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 0 3em 1em;
+}
+.ori-lahav {
+  background: image-url("/images/ori-lahav.jpeg");
+}
+.ran-tavory {
+  background: image-url("/images/ran-tavory.png");
+}
+
+.media {
+  clear: both;
+}
+
+footer {
+  clear: both;
 }
