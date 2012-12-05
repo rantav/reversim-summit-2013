@@ -14,10 +14,17 @@ $bg: #ECE37B;
 }
 
 
-img.speaker {
+.speaker-image {
   width: 250px;
   height: 250px;
+  display: block;
   margin: 0 0 3em 1em;
+}
+.ori-lahav {
+  background: image-url("/images/ori-lahav.jpeg");
+}
+.ran-tavory {
+  background: image-url("/images/ran-tavory.png");
 }
 
 .media {

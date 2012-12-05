@@ -1,6 +1,6 @@
 <h3>About Reversim Summit 2013</h3>
 
-<p><a href="http://reversim.com">Reversim</a> (רברס עם פלטפורמה) is a Hebrew podcast by
+<p><a href="http://reversim.com">Reversim</a>  (רברס עם פלטפורמה) is a Hebrew podcast by
   <a href="https://twitter.com/orilahav">Ori&nbsp;Lahav</a> and <a href="http://tavory.com">Ran&nbsp;Tavory</a>
   which brings together software developers and product, with over 150 recorded episodes and a few hundreds listners.
 </p>
@@ -12,7 +12,7 @@
 <p>We are the folks that bring you the podcast and many friends who help put this together</p>
 <div ng-repeat="p in people" class="media">
   <h4 class="media-heading">{{p.name}}</h4>
-  <img ng-src="/images/{{p.image}}" class="pull-right speaker  img-circle media-object" title="{{p.name}}" alt="{{p.name}}"/>
+  <div class="speaker-image {{p.image_class}} pull-right img-circle media-object">&nbsp;</div>
   <div class="media-body">
     <p>{{p.bio}}</h2>
   </div>
