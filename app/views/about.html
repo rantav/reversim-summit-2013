@@ -7,9 +7,14 @@
 <p>The summit is our intention to create a conference for developers by developers. Like in the podcast, we bring you
   the content we are interested in, and we hope you will be too.
 </p>
-<div ng-repeat="p in people">
-  <h4>{{p.name}}</h4>
-  <img ng-src="/images/{{p.image}}" class="speaker thumbnail" title="{{p.name}}" alt="{{p.name}}"/>
-  <p>{{p.bio}}</h2>
+
+<h3>Who's behind the Reversim Summit?</h3>
+<p>We are the folks that bring you the podcast and many friends who help put this together</p>
+<div ng-repeat="p in people" class="media">
+  <h4 class="media-heading">{{p.name}}</h4>
+  <img ng-src="/images/{{p.image}}" class="pull-right speaker  img-circle media-object" title="{{p.name}}" alt="{{p.name}}"/>
+  <div class="media-body">
+    <p>{{p.bio}}</h2>
+  </div>
 </div>
 
