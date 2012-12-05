@@ -1,10 +1,15 @@
 <h3>About Reversim Summit 2013</h3>
 
 <p><a href="http://reversim.com">Reversim</a> (רברס עם פלטפורמה) is a Hebrew podcast by
-  <a href="https://twitter.com/orilahav">Ori Lahav</a> and <a href="http://tavory.com">Ran Tavory</a>
-  which brings together
-  blah blah blah...
+  <a href="https://twitter.com/orilahav">Ori&nbsp;Lahav</a> and <a href="http://tavory.com">Ran&nbsp;Tavory</a>
+  which brings together software developers and product, with over 150 recorded episodes and a few hundreds listners.
 </p>
-<p>The summit is blah blah blah...</p>
-
+<p>The summit is our intention to create a conference for developers by developers. Like in the podcast, we bring you
+  the content we are interested in, and we hope you will be too.
+</p>
+<div ng-repeat="p in people">
+  <h4>{{p.name}}</h4>
+  <img ng-src="/images/{{p.image}}" class="speaker thumbnail" title="{{p.name}}" alt="{{p.name}}"/>
+  <p>{{p.bio}}</h2>
+</div>
 

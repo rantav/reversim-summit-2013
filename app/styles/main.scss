@@ -1,6 +1,6 @@
-//@import "compass_twitter_bootstrap";
-@import "tactile.scss"
-;
+@import "compass_twitter_bootstrap";
+@import "tactile.scss";
+
 $bg: #ECE37B;
 #register {
   background: $bg; /* Old browsers */
@@ -11,6 +11,10 @@ $bg: #ECE37B;
   background: -ms-linear-gradient(top,  $bg 0%, $bg 100%); /* IE10+ */
   background: linear-gradient(top,  $bg 0%,$bg 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$bg', endColorstr='$bg',GradientType=0 ); /* IE6-9 */
+}
 
 
+img.speaker {
+  width: 250px;
+  height: 250px;
 }
