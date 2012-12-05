@@ -1,5 +1,10 @@
-# Usage:
-#   ./deploy.sh "commit message"
+if [ $# -ne 1 ]
+then
+  echo "Usage:"
+  echo "       `basename $0` 'commit message'"
+  exit 1
+fi
+
 
 set -e
 yeoman build
