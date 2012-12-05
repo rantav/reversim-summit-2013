@@ -7,6 +7,10 @@ var reversimSummit2013App = angular.module('reversimSummit2013App', [])
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
