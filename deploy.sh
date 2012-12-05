@@ -7,7 +7,7 @@ fi
 
 
 set -e
-yeoman build
+yeoman build clean
 git add .
 set +e
 git ci -am "$1"
