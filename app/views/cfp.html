@@ -1,3 +1,32 @@
 <h3>Call For Papers</h3>
 
-<p>Coming soon...</p>
+<p>Yessss! We want you on board. <a href="https://github.com/rantav/reversim-summit-2013/blob/master/README.md">Please see the full instructions here</a>.</p>
+
+<pre><code>require 'speaker'
+require 'israel'
+
+module Israel
+  module Summit
+    def call_for_papers(speaker, subject)
+      apply(spekaer) if ["DevOps, NoOps, CD, Dev Culture",
+                         "Software Craftsmanship",
+                         "Mobile dev",
+                         "Web dev",
+                         "Product, Lean Startup, UX"
+                        ].include(subject)
+                        and (speaker.available?(Date.new(2013, 2, 18))
+                           or speaker.available?(Date.new(2013, 2, 19)))
+    end
+    def apply(speaker)
+      # We prefer github, but also settle for goo-ol emails
+      if speaker.can_github?
+        speaker.make_pull_request('/rantav/reversim-summit-2013')
+      else
+        spekaer.send_mail('rantav@ the gmail')
+    end
+  end
+end</code></pre>
+
+<p>The topics are:</p>
+<div ng-include="'views/partials/topics.html'"></div>
+
