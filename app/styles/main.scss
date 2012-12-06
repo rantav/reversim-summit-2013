@@ -20,12 +20,6 @@ $bg: #ECE37B;
   display: block;
   margin: 0 0 1em 1em;
 }
-.ori {
-  background: image-url("/images/ori.jpeg");
-}
-.ran {
-  background: image-url("/images/ran.png");
-}
 
 .media {
   clear: both;
@@ -34,3 +28,5 @@ $bg: #ECE37B;
 footer {
   clear: both;
 }
+
+@import "people.scss";
