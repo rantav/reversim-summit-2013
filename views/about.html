@@ -10,11 +10,5 @@
 
 <h3>Who's behind the Reversim Summit?</h3>
 <p>We are the folks that bring you the podcast and many friends who help put this together</p>
-<div ng-repeat="p in people" class="media">
-  <h4 class="media-heading">{{p.name}}</h4>
-  <div class="speaker-image {{p.image_class}} pull-right img-circle media-object">&nbsp;</div>
-  <div class="media-body">
-    <p>{{p.bio}}</h2>
-  </div>
-</div>
 
+<div ng-include="'views/partials/people.html'"></div>

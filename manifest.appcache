@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Thu Dec 06 2012 09:46:39 GMT+0200 (IST)
+# Time: Fri Dec 07 2012 00:46:56 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/#/
@@ -21,22 +21,24 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
-http://localhost:3501/app/images/glyphicons-halflings-white.png?1354773924
-http://localhost:3501/app/images/glyphicons-halflings.png?1354773924
 http://localhost:3501/images/0d931100.octocat-icon.png
 http://localhost:3501/images/4002031b.highlight-bg.jpg
+http://localhost:3501/images/44e00ae5.roee.png
+http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
 http://localhost:3501/images/5f21955b.tar-gz-icon.png
-http://localhost:3501/images/6ba09381.ori-lahav.jpeg
+http://localhost:3501/images/6ba09381.ori.jpeg
 http://localhost:3501/images/7a7ed7b3.body-bg.png
-http://localhost:3501/images/96085fa2.ran-tavory.png
+http://localhost:3501/images/96085fa2.ran.png
+http://localhost:3501/images/9cc6609b.glyphicons-halflings.png
+http://localhost:3501/images/ae1c727d.yoav.png
 http://localhost:3501/images/ce7c477e.zip-icon.png
 http://localhost:3501/images/f00f7109.hr.png
 http://www.google-analytics.com/ga.js
 https://fonts.googleapis.com/css?family=Chivo:900
-scripts/72ea56f3.scripts.js
+scripts/acf9c36e.scripts.js
 scripts/vendor/d10639ae.angular.js
-styles/98b5284e.main.css
 styles/9a35457b.print.css
+styles/b0906e8e.main.css
 
 NETWORK:
 *
