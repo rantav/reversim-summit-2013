@@ -11,7 +11,7 @@ If you have a talk you'd like to present, we are very happy to have you on. Let'
 
 You have two options. 
 
-- *The hacker way*. (preferred) Fork this repo and make a pull request. Be sure two commit two files - one your-talk-title.md file with the details of your talk and your bio and an image of yourself. See the following PRs as examples. [1](https://github.com/rantav/reversim-summit-2013/pull/1) and [2](https://github.com/rantav/reversim-summit-2013/pull/2)
+- *The hacker way*. (preferred) __Fork this repo and make a pull request__. Be sure two commit two files - one your-talk-title.md file with the details of your talk and your bio and an image of yourself. See the following PRs as examples. [1](https://github.com/rantav/reversim-summit-2013/pull/1) and [2](https://github.com/rantav/reversim-summit-2013/pull/2)
 - *The other way*. Email me (rantav@gmail) with the following details. 
 
 What details do I need to provide for the talk?
