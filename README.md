@@ -1,7 +1,7 @@
 Reversim Summit 2013
 ====================
 
-___Call for papers deadline: Jan 1, 2013___
+___Call for papers deadline: Jan 1, 2013___ *Don't drink and submit papers (actually why not...)*
 
 For the web site please follow [http://summit2013.reversim.com/](http://summit2013.reversim.com/)
 
