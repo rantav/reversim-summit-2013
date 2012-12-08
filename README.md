@@ -1,6 +1,8 @@
 Reversim Summit 2013
 ====================
 
+___Call for papers deadline: Jan 1, 2013___
+
 For the web site please follow [http://summit2013.reversim.com/](http://summit2013.reversim.com/)
 
 If you are here because you want to offer a talk at the conference, then you are very welcome! Please follow the instructions below.
