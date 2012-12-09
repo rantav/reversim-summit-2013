@@ -19,7 +19,7 @@ You have two options.
 What details do I need to provide for the talk?
 ----
 - Your full name
-- your photo: 250x250 px high res
+- your photo: 250x250 px high res (hint: if you use Google+ then your profile photo is 250x250)
 - email
 - phone
 - short personal bio
