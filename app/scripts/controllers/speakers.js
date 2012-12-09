@@ -9,4 +9,5 @@ app.controller('SpeakersCtrl', ['$scope', '$http', 'data', '$routeParams' ,funct
   });
   $scope.editUrl = data.getDataSheetHumanUrl(sheet);
   $scope.speakerName = $routeParams.speakerName || "";
+  $scope.permalinkable = true;
 }]);
