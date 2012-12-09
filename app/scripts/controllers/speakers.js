@@ -1,6 +1,6 @@
 'use strict';
 
-reversimSummit2013App.controller('SpeakersCtrl', ['$scope',function($scope) {
+app.controller('SpeakersCtrl', ['$scope',function($scope) {
   $scope.people = [
     {
       'name': 'Roee Adler',

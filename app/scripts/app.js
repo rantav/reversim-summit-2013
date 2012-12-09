@@ -1,6 +1,6 @@
 'use strict';
 
-var reversimSummit2013App = angular.module('reversimSummit2013App', ['data'])
+var app = angular.module('app', ['data'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/', {

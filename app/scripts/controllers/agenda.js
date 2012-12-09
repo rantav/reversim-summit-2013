@@ -1,4 +1,4 @@
 'use strict';
 
-reversimSummit2013App.controller('AgendaCtrl', ['$scope',function($scope) {
+app.controller('AgendaCtrl', ['$scope',function($scope) {
 }]);

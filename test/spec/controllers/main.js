@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function() {
 
   // load the controller's module
-  beforeEach(module('reversimSummit2013App'));
+  beforeEach(module('app'));
 
   var MainCtrl,
     scope;
