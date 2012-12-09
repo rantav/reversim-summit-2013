@@ -1,0 +1,31 @@
+/* line 1, ../../app/styles/people.scss */
+.ori {
+  background: url(/images/6ba09381.ori.jpeg);
+}
+
+/* line 4, ../../app/styles/people.scss */
+.ran {
+  background: url(/images/96085fa2.ran.png);
+}
+
+/* line 7, ../../app/styles/people.scss */
+.roee {
+  background: url(/images/44e00ae5.roee.png);
+}
+
+/* line 10, ../../app/styles/people.scss */
+.yoav {
+  background: url(/images/ae1c727d.yoav.png);
+}
+
+/* line 13, ../../app/styles/people.scss */
+.ronen {
+  background: url(/images/78ac2378.ronen.jpg);
+  width: 188px;
+}
+
+/*
+.ronen {
+  background: image-url("/images/98f998f8.ronen.png");
+}
+*/

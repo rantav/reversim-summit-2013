@@ -1,5 +1,6 @@
-<div ng-repeat="p in people" class="media">
-  <h4 class="media-heading">{{p.name}}</h4>
+<div ng-repeat="p in people | filter:{name: speakerName}" class="media">
+  <h4 class="media-heading" ng-show="permalinkable"><a ng-href="#/speakers/{{p.name}}">{{p.name}}</a></h4>
+  <h4 class="media-heading" ng-hide="permalinkable" >{{p.name}}</h4>
   <div class="speaker-image {{p.css}} pull-right img-circle media-object">&nbsp;</div>
   <div class="media-body">
     <p>{{p.bio}}</h2>
