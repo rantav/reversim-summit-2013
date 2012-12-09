@@ -23,6 +23,10 @@ var app = angular.module('app', ['data'])
         templateUrl: 'views/speakers.html',
         controller: 'SpeakersCtrl'
       })
+      .when('/speakers/:speakerName', {
+        templateUrl: 'views/speakers.html',
+        controller: 'SpeakersCtrl'
+      })
       .when('/register', {
         templateUrl: 'views/register.html',
         controller: 'RegisterCtrl'

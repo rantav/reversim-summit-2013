@@ -1,4 +1,4 @@
-<div ng-repeat="p in people" class="media">
+<div ng-repeat="p in people | filter:{name: speakerName}" class="media">
   <h4 class="media-heading">{{p.name}}</h4>
   <div class="speaker-image {{p.css}} pull-right img-circle media-object">&nbsp;</div>
   <div class="media-body">
