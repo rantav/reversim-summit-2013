@@ -20,5 +20,5 @@ set +e
 git add .
 git ci -am "$1"
 set -e
-git push
+git push origin gh-pages
 git co gh-pages-source
