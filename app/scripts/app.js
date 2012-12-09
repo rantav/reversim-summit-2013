@@ -31,6 +31,10 @@ var app = angular.module('app', ['data'])
         templateUrl: 'views/register.html',
         controller: 'RegisterCtrl'
       })
+      .when('/sessions', {
+        templateUrl: 'views/sessions.html',
+        controller: 'SessionsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

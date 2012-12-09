@@ -28,11 +28,13 @@ angular.module('data', []).
           var entry = entries[i];
           var content = entry.content.$t;
           var matches = content.match(regexp);
-          var obj = {};
-          for (var m = 1; m < matches.length; ++m) {
-            obj[columns[m - 1]] = matches[m];
+          if (matches) {
+            var obj = {};
+            for (var m = 1; m < matches.length; ++m) {
+              obj[columns[m - 1]] = matches[m];
+            }
+            ret.push(obj);
           }
-          ret.push(obj);
         }
         return ret;
       }

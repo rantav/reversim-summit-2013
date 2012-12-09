@@ -1,0 +1,23 @@
+<h1>Sessions</h1>
+<table class="table table-bordered">
+  <caption>Sessions list</<caption>
+  <thead>
+    <tr>
+      <th>Speaker</th>
+      <th>Subject</th>
+      <th>Track</th>
+      <th>Abstract</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="s in sessions">
+      <td>
+        <a href="#/speakers/{{s.speaker}}">{{s.speaker}}
+          <div class="speaker-image-small {{s.css}} pull-left img-circle media-object">&nbsp;</div></a>
+      </td>
+      <td>{{s.subject}}</td>
+      <td>{{s.track}}</td>
+      <td>{{s.abstract}}</td>
+    </tr>
+  </tbody>
+</table>
