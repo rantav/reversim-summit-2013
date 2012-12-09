@@ -3,10 +3,16 @@
 
 angular.module('data', []).
   factory('data', function() {
+    var SHEET = '0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c';
+    var SPREADSHEETS_API = 'http://spreadsheets.google.com/feeds/list/';
+    var SPREADSHEETS_UI = 'https://docs.google.com/spreadsheet/ccc?key=';
     return {
       getDataSheetUrl: function(index) {
-        var SPREADSHEET = 'http://spreadsheets.google.com/feeds/list/0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c/';
-        var url = SPREADSHEET + index + '/public/basic?alt=json-in-script&callback=JSON_CALLBACK';
+        var url =  SPREADSHEETS_API + SHEET + '/' + index + '/public/basic?alt=json-in-script&callback=JSON_CALLBACK';
+        return url;
+      },
+      getDataSheetHumanUrl: function(index) {
+        var url = SPREADSHEETS_UI + SHEET + "#gid=" + index;
         return url;
       },
       parseFromSpreadsheet: function (data, columns) {

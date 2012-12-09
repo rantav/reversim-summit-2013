@@ -7,4 +7,5 @@ app.controller('SpeakersCtrl', ['$scope', '$http', 'data' ,function($scope, $htt
   }).error(function(returned) {
     console.log(returned);
   });
+  $scope.editUrl = data.getDataSheetHumanUrl(sheet);
 }]);
