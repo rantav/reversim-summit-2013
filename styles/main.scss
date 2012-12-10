@@ -21,6 +21,13 @@ $bg: #ECE37B;
   margin: 0 0 1em 1em;
 }
 
+.speaker-image-small {
+  width: 50px !important;
+  height: 50px;
+  display: block;
+  background-size: 100% !important;
+}
+
 .media {
   clear: both;
 }
