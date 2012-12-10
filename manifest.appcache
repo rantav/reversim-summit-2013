@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Mon Dec 10 2012 23:00:30 GMT+0200 (IST)
+# Time: Mon Dec 10 2012 23:58:49 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/#/
@@ -24,6 +24,7 @@ CACHE:
 http://localhost:3501/images/0d931100.octocat-icon.png
 http://localhost:3501/images/4002031b.highlight-bg.jpg
 http://localhost:3501/images/44e00ae5.roee.png
+http://localhost:3501/images/4ecb39fc.eden.png
 http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
 http://localhost:3501/images/5f21955b.tar-gz-icon.png
 http://localhost:3501/images/6ba09381.ori.jpeg
@@ -39,8 +40,8 @@ http://www.google-analytics.com/ga.js
 https://fonts.googleapis.com/css?family=Chivo:900
 scripts/f675bfe4.scripts.js
 scripts/vendor/d10639ae.angular.js
+styles/37abeb43.main.css
 styles/9a35457b.print.css
-styles/9fc53499.main.css
 
 NETWORK:
 *
