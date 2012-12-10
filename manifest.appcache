@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Tue Dec 11 2012 00:11:33 GMT+0200 (IST)
+# Time: Tue Dec 11 2012 01:03:53 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/#/
@@ -21,7 +21,7 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
-http://localhost:3501/images/0d931100.octocat-icon.png
+http://localhost:3501/images/3c07f434.googletlv.png
 http://localhost:3501/images/4002031b.highlight-bg.jpg
 http://localhost:3501/images/44e00ae5.roee.png
 http://localhost:3501/images/4ecb39fc.eden.png
@@ -35,12 +35,13 @@ http://localhost:3501/images/ab3ffa57.ronen.png
 http://localhost:3501/images/ae1c727d.yoav.png
 http://localhost:3501/images/ce7c477e.zip-icon.png
 http://localhost:3501/images/f00f7109.hr.png
+http://localhost:3501/images/octocat-icon.png
 http://spreadsheets.google.com/feeds/list/0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c/1/public/basic?alt=json-in-script&callback=angular.callbacks._0
 http://www.google-analytics.com/ga.js
 https://fonts.googleapis.com/css?family=Chivo:900
 scripts/f675bfe4.scripts.js
 scripts/vendor/d10639ae.angular.js
-styles/37abeb43.main.css
+styles/89fde07f.main.css
 styles/9a35457b.print.css
 
 NETWORK:
