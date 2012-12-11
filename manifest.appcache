@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Tue Dec 11 2012 01:03:53 GMT+0200 (IST)
+# Time: Wed Dec 12 2012 00:47:26 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/#/
@@ -21,6 +21,7 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
+http://localhost:3501/images/3aba74b8.idok.jpg
 http://localhost:3501/images/3c07f434.googletlv.png
 http://localhost:3501/images/4002031b.highlight-bg.jpg
 http://localhost:3501/images/44e00ae5.roee.png
@@ -29,20 +30,23 @@ http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
 http://localhost:3501/images/5f21955b.tar-gz-icon.png
 http://localhost:3501/images/6ba09381.ori.jpeg
 http://localhost:3501/images/7a7ed7b3.body-bg.png
+http://localhost:3501/images/8ffffa7a.snoyman.jpg
 http://localhost:3501/images/96085fa2.ran.png
 http://localhost:3501/images/9cc6609b.glyphicons-halflings.png
 http://localhost:3501/images/ab3ffa57.ronen.png
 http://localhost:3501/images/ae1c727d.yoav.png
 http://localhost:3501/images/ce7c477e.zip-icon.png
+http://localhost:3501/images/e4637202.moshe.png
 http://localhost:3501/images/f00f7109.hr.png
 http://localhost:3501/images/octocat-icon.png
-http://spreadsheets.google.com/feeds/list/0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c/1/public/basic?alt=json-in-script&callback=angular.callbacks._0
+http://spreadsheets.google.com/feeds/cells/0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c/1/public/basic?alt=json-in-script&callback=angular.callbacks._0
 http://www.google-analytics.com/ga.js
 https://fonts.googleapis.com/css?family=Chivo:900
-scripts/f675bfe4.scripts.js
+scripts/3a501b26.scripts.js
+scripts/vendor/8bc61845.jquery.min.js
 scripts/vendor/d10639ae.angular.js
-styles/89fde07f.main.css
 styles/9a35457b.print.css
+styles/f114a5ae.main.css
 
 NETWORK:
 *

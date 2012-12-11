@@ -1,6 +1,7 @@
 <h1>Sessions</h1>
-<div ng-repeat="s in sessions">
+<div ng-repeat="s in sessions | filter:{Status: 'accepted'} | filter:sessionName">
   <hr/>
-  <div class="speaker-image-small {{s.css}} pull-right img-circle media-object">&nbsp;</div>
-  <span class="label">{{s.track}}</span> <a href="#/speakers/{{s.speaker}}">{{s.speaker}}</a> - <strong>{{s.subject}}</strong>: {{s.abstract}}
+  <a rel="tooltip" title="{{s.Speaker}}" href="#/speakers/{{s.Speaker}}"><div class="speaker-image-small {{s.css}} pull-right img-circle media-object">&nbsp;</div></a>
+  <h4><a href="#/sessions/{{s.Subject}}">{{s.Subject}}</a></h4>
+  <span class="label">{{s.Track}}</span> {{s.Abstract}}
 </div>
