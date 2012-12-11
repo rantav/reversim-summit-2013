@@ -2,5 +2,7 @@
 <div ng-repeat="s in sessions | filter:{Status: 'accepted'}">
   <hr/>
   <div class="speaker-image-small {{s.css}} pull-right img-circle media-object">&nbsp;</div>
-  <span class="label">{{s.Track}}</span> <a href="#/speakers/{{s.Speaker}}">{{s.Speaker}}</a> - <strong>{{s.Subject}}</strong>: {{s.Abstract}}
+  <h4>{{s.Subject}}, <a href="#/speakers/{{s.Speaker}}">{{s.Speaker}}</a></h4>
+
+  <span class="label">{{s.Track}}</span> {{s.Abstract}}
 </div>
