@@ -18,41 +18,46 @@ angular.module('data', []).
       parseFromSpreadsheet: function (data) {
         var entries = data.feed.entry;
         var titles = this.getTitles(entries);
-        var length = titles.length;
         var ret = [];
         var obj;
         for (var i = 0; i < entries.length; ++i) {
-          if (i >= length && i % length == 0) {
-            obj = {};
-            ret.push(obj);
-          }
           var entry = entries[i];
           var id = entry.id.$t;
           id = this.getCompactId(id);
           if (this.isFirstRow(id)) {
             continue;
           } else {
+            var column = this.getColumn(id);
+            if (column == "1") {
+              obj = {};
+              ret.push(obj);
+            }
             var content = entry.content.$t;
-            obj[titles[i % length]] = content;
+            obj[titles[column]] = content;
           }
         }
         return ret;
       },
 
+      // returns a map b/w columns to titles. for example {1: "name", "3": 'value'}
       getTitles: function(entries) {
-        var titles = [];
+        var titles = {};
         for (var i = 0; i < entries.length; ++i) {
           var entry = entries[i];
           var id = entry.id.$t;
           id = this.getCompactId(id);
           if (this.isFirstRow(id)) {
+            var column = this.getColumn(id);
             var content = entry.content.$t;
-            titles.push(content);
+            titles[column] = content;
           } else {
-            return titles;
+            continue;
           }
         }
         return titles;
+      },
+      getColumn: function(id) {
+        return id.split('C')[1]
       },
       getCompactId: function(id) {
         return id.substr(id.lastIndexOf('/') + 1);
