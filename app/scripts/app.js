@@ -35,6 +35,10 @@ var app = angular.module('app', ['data'])
         templateUrl: 'views/sessions.html',
         controller: 'SessionsCtrl'
       })
+      .when('/sessions/:sessionName', {
+        templateUrl: 'views/sessions.html',
+        controller: 'SessionsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

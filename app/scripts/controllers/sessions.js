@@ -9,4 +9,5 @@ app.controller('SessionsCtrl', ['$scope', '$http', 'data', '$routeParams' ,funct
   }).error(function(returned) {
     console.log(returned);
   });
+  $scope.sessionName = $routeParams.sessionName || "";
 }]);
