@@ -13,5 +13,3 @@ window.addEventListener('load', function(e) {
   }, false);
 
 }, false);
-
-console.log(2);
