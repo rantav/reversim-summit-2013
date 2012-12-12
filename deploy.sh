@@ -11,6 +11,7 @@ yeoman clean
 yeoman build
 # this looks like a bug (in confess.js or in yeoman?) but the urls of the images are with a hostname and that's bad
 sed -i.bak 's/http:\/\/localhost:3501//g' dist/manifest.appcache
+grep  -v spreadsheets.google.com dist/manifest.appcache | tee dist/manifest.appcache
 git add .
 set +e
 git ci -am "$1"
