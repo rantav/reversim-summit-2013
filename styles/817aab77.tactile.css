@@ -1,0 +1,455 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 17, ../../app/styles/tactile.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../../app/styles/tactile.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 30, ../../app/styles/tactile.scss */
+body {
+  line-height: 1;
+}
+
+/* line 33, ../../app/styles/tactile.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 36, ../../app/styles/tactile.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../../app/styles/tactile.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 44, ../../app/styles/tactile.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* LAYOUT STYLES */
+/* line 50, ../../app/styles/tactile.scss */
+body {
+  font-size: 1em;
+  line-height: 1.5;
+  background: #e7e7e7 url(/images/7a7ed7b3.body-bg.png) 0 0 repeat;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  color: #6d6d6d;
+}
+
+/* line 59, ../../app/styles/tactile.scss */
+a {
+  color: #d5000d;
+}
+
+/* line 62, ../../app/styles/tactile.scss */
+a:hover {
+  color: #c5000c;
+}
+
+/* line 66, ../../app/styles/tactile.scss */
+header {
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+/* line 71, ../../app/styles/tactile.scss */
+header h1 {
+  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-size: 48px;
+  color: #303030;
+  line-height: 1.2;
+}
+
+/* line 79, ../../app/styles/tactile.scss */
+header h2 {
+  letter-spacing: -1px;
+  font-size: 24px;
+  color: #aaa;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+/* line 87, ../../app/styles/tactile.scss */
+#container {
+  background: transparent url(/images/4002031b.highlight-bg.jpg) 50% 0 no-repeat;
+  min-height: 595px;
+}
+
+/* line 92, ../../app/styles/tactile.scss */
+.inner {
+  width: 620px;
+  margin: 0 auto;
+}
+
+/* line 97, ../../app/styles/tactile.scss */
+#container .inner img {
+  max-width: 100%;
+}
+
+/* line 101, ../../app/styles/tactile.scss */
+#downloads {
+  margin-bottom: 40px;
+}
+
+/* line 105, ../../app/styles/tactile.scss */
+a.button {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  color: #303030;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  display: block;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 8px;
+  background: #fdfdfd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #f2f2f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 );
+  /* IE6-9 */
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+}
+
+/* line 134, ../../app/styles/tactile.scss */
+a.button:hover {
+  border-top: solid 1px #b7b7b7;
+  border-left: solid 1px #b3b3b3;
+  border-right: solid 1px #b3b3b3;
+  border-bottom: solid 1px #b3b3b3;
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #f6f6f6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fdfdfd 0%, #f6f6f6 100%);
+  /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f6f6f6',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 149, ../../app/styles/tactile.scss */
+a.button span {
+  display: block;
+  height: 23px;
+}
+
+/* line 154, ../../app/styles/tactile.scss */
+#download-zip span {
+  background: transparent url(/images/zip-icon.png) 12px 50% no-repeat;
+}
+
+/* line 157, ../../app/styles/tactile.scss */
+#download-tar-gz span {
+  background: transparent url(/images/5f21955b.tar-gz-icon.png) 12px 50% no-repeat;
+}
+
+/* line 160, ../../app/styles/tactile.scss */
+#view-on-github span {
+  background: transparent url(/images/octocat-icon.png) 12px 50% no-repeat;
+}
+
+/* line 163, ../../app/styles/tactile.scss */
+#view-on-github {
+  margin-right: 0;
+}
+
+/* line 167, ../../app/styles/tactile.scss */
+code, pre {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+/* line 174, ../../app/styles/tactile.scss */
+code {
+  background-color: #f2f2f2;
+  border: solid 1px #ddd;
+  padding: 0 3px;
+}
+
+/* line 180, ../../app/styles/tactile.scss */
+pre {
+  padding: 20px;
+  background: #303030;
+  color: #f2f2f2;
+  text-shadow: none;
+  overflow: auto;
+}
+
+/* line 187, ../../app/styles/tactile.scss */
+pre code {
+  color: #f2f2f2;
+  background-color: #303030;
+  border: none;
+  padding: 0;
+}
+
+/* line 194, ../../app/styles/tactile.scss */
+ul, ol, dl {
+  margin-bottom: 20px;
+}
+
+/* COMMON STYLES */
+/* line 201, ../../app/styles/tactile.scss */
+hr {
+  height: 1px;
+  line-height: 1px;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border: none;
+  background: transparent url(/images/f00f7109.hr.png) 50% 0 no-repeat;
+}
+
+/* line 210, ../../app/styles/tactile.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 214, ../../app/styles/tactile.scss */
+em {
+  font-style: italic;
+}
+
+/* line 218, ../../app/styles/tactile.scss */
+table {
+  width: 100%;
+  border: 1px solid #ebebeb;
+}
+
+/* line 223, ../../app/styles/tactile.scss */
+th {
+  font-weight: 500;
+}
+
+/* line 227, ../../app/styles/tactile.scss */
+td {
+  border: 1px solid #ebebeb;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* line 233, ../../app/styles/tactile.scss */
+form {
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+/* GENERAL ELEMENT TYPE STYLES */
+/* line 242, ../../app/styles/tactile.scss */
+h1 {
+  font-size: 32px;
+}
+
+/* line 246, ../../app/styles/tactile.scss */
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #303030;
+  margin-bottom: 8px;
+}
+
+/* line 253, ../../app/styles/tactile.scss */
+h3 {
+  color: #d5000d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* line 260, ../../app/styles/tactile.scss */
+h4 {
+  font-size: 16px;
+  color: #303030;
+  font-weight: bold;
+}
+
+/* line 266, ../../app/styles/tactile.scss */
+h5 {
+  font-size: 1em;
+  color: #303030;
+}
+
+/* line 271, ../../app/styles/tactile.scss */
+h6 {
+  font-size: .8em;
+  color: #303030;
+}
+
+/* line 276, ../../app/styles/tactile.scss */
+p {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* line 281, ../../app/styles/tactile.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 285, ../../app/styles/tactile.scss */
+p a {
+  font-weight: 400;
+}
+
+/* line 289, ../../app/styles/tactile.scss */
+blockquote {
+  font-size: 1.6em;
+  border-left: 10px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+}
+
+/* line 296, ../../app/styles/tactile.scss */
+ul li {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+/* line 301, ../../app/styles/tactile.scss */
+ol li {
+  list-style: decimal inside;
+  padding-left: 3px;
+}
+
+/* line 306, ../../app/styles/tactile.scss */
+dl dt {
+  color: #303030;
+}
+
+/* line 310, ../../app/styles/tactile.scss */
+footer {
+  background: transparent url(/images/f00f7109.hr.png) 0 0 no-repeat;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* line 319, ../../app/styles/tactile.scss */
+footer a {
+  color: #666;
+}
+
+/* line 322, ../../app/styles/tactile.scss */
+footer a:hover {
+  color: #444;
+}
+
+/* MISC */
+/* line 327, ../../app/styles/tactile.scss */
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+
+/* line 335, ../../app/styles/tactile.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 336, ../../app/styles/tactile.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 337, ../../app/styles/tactile.scss */
+.clearfix {
+  display: block;
+}
+
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  /* line 350, ../../app/styles/tactile.scss */
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 354, ../../app/styles/tactile.scss */
+  #downloads {
+    margin-bottom: 25px;
+  }
+
+  /* line 357, ../../app/styles/tactile.scss */
+  #download-zip, #download-tar-gz {
+    display: none;
+  }
+
+  /* line 360, ../../app/styles/tactile.scss */
+  .inner {
+    width: 94%;
+    margin: 0 auto;
+  }
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
