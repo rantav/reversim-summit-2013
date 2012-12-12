@@ -5,16 +5,22 @@ then
   exit 1
 fi
 
+function remove_from_manifest() {
+  local remove=$1
+  grep -v $remove dist/manifest.appcache > dist/manifest.appcache.tmp
+  mv dist/manifest.appcache.tmp dist/manifest.appcache
+}
 
 set -e
 yeoman clean
 yeoman build
 # this looks like a bug (in confess.js or in yeoman?) but the urls of the images are with a hostname and that's bad
 sed -i.bak 's/http:\/\/localhost:3501//g' dist/manifest.appcache
-grep -v spreadsheets.google.com dist/manifest.appcache > dist/manifest.appcache.tmp
-mv dist/manifest.appcache.tmp dist/manifest.appcache
 rm dist/manifest.appcache.bak
-echo "# `git rev-parse HEAD`" >> dist/manifest.appcache
+remove_from_manifest "spreadsheets.google.com"
+remove_from_manifest "scripts.js"
+remove_from_manifest "main.css"
+echo "# git rev: `git rev-parse HEAD`" >> dist/manifest.appcache
 git add .
 set +e
 git ci -am "$1"
