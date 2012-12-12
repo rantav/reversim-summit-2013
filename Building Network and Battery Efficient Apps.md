@@ -1,6 +1,6 @@
 Title: Building Network and Battery Efficient Apps
 ==================================================
-Would you like your mobile app to run faster, consume less data and conserve battery? Do you like getting 5 start reviews? 
+Would you like your mobile app to run faster, consume less data and conserve battery? Do you like getting 5 star reviews? 
 
 In this session we will talk about the difference between Ethernet, Mobile and WiFi networks. We will go over the main Do's and Dont's and will provide a set of guidelines and best practices on how to optimize your application so it will not drain the user's battery.    
 
