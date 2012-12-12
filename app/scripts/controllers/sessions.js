@@ -5,9 +5,17 @@ app.controller('SessionsCtrl', ['$scope', '$http', 'data', '$routeParams' ,funct
   var sheet = 3;
   $http.jsonp(data.getDataSheetUrl(sheet)).success(function(returned) {
     var sessions = data.parseFromSpreadsheet(returned);
+
+    // sessions = $filter('filter')(sessions, function(e){e.Status =='accepted'});
     $scope.sessions = sessions;
   }).error(function(returned) {
     console.log(returned);
   });
   $scope.sessionName = $routeParams.sessionName || "";
+
+  $scope.doFilter = function(elem) {
+    console.log(elem);
+    return true;
+  };
+
 }]);

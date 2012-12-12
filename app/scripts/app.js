@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('app', ['data'])
+var app = angular.module('app', ['data', 'filters'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/', {

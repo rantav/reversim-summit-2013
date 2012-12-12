@@ -1,6 +1,5 @@
 'use strict';
 
-
 angular.module('data', []).
   factory('data', function() {
     var SHEET = '0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c';

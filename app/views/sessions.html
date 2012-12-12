@@ -1,5 +1,5 @@
 <h1>Sessions</h1>
-<div ng-repeat="s in sessions | filter:{Status: 'accepted'} | filter:sessionName">
+<div ng-repeat="s in sessions | orFilter:[{Status: 'pending'}, {Status: 'confirmed'}, {Status: 'accepted'}] | filter:{Subject: sessionName}">
   <hr/>
   <a rel="tooltip" title="{{s.Speaker}}" href="#/speakers/{{s.Speaker}}"><div class="speaker-image-small {{s.css}} pull-right img-circle media-object">&nbsp;</div></a>
   <h4><a href="#/sessions/{{s.Subject}}">{{s.Subject}}</a></h4>
