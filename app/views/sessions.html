@@ -4,5 +4,5 @@
   <hr/>
   <a rel="tooltip" title="{{s.Speaker}}" href="#/speakers/{{s.Speaker}}"><div class="speaker-image-small {{s.css}} pull-right img-circle media-object">&nbsp;</div></a>
   <h4><a href="#/sessions/{{s.Subject}}">{{s.Subject}}</a></h4>
-  <span class="label">{{s.Track}}</span> {{s.Abstract}}
+  <span class="label">{{s.Track}}</span> <span class="media-body" ng-bind-html-unsafe="s.Abstract | markdown"></span>
 </div>
