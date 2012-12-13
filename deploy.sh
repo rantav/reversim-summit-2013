@@ -19,6 +19,7 @@ sed -i.bak 's/http:\/\/localhost:3501//g' dist/manifest.appcache
 rm dist/manifest.appcache.bak
 remove_from_manifest "spreadsheets.google.com"
 echo "# git rev: `git rev-parse HEAD`" >> dist/manifest.appcache
+echo "<!-- Built on `date`,     git rev: `git rev-parse HEAD` -->" >> dist/index.html
 git add .
 set +e
 git ci -am "$1"
