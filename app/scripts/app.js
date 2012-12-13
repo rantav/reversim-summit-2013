@@ -1,5 +1,5 @@
 'use strict';
-alert("1");
+alert("2");
 var app = angular.module('app', ['data', 'filters'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
