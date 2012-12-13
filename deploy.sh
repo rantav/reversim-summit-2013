@@ -18,8 +18,6 @@ yeoman build
 sed -i.bak 's/http:\/\/localhost:3501//g' dist/manifest.appcache
 rm dist/manifest.appcache.bak
 remove_from_manifest "spreadsheets.google.com"
-remove_from_manifest "scripts.js"
-remove_from_manifest "main.css"
 echo "# git rev: `git rev-parse HEAD`" >> dist/manifest.appcache
 git add .
 set +e
