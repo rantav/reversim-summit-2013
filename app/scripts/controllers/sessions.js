@@ -10,4 +10,5 @@ app.controller('SessionsCtrl', ['$scope', '$http', 'data', '$routeParams' ,funct
     console.log(returned);
   });
   $scope.sessionName = $routeParams.sessionName || "";
+  $scope.query = "";
 }]);
