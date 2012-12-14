@@ -39,3 +39,10 @@ What details do I need to provide for the lab?
 - short personal bio
 - lab title
 - lab abstract
+
+How long is each talk/lab?
+----
+* Talks are 50 minuts. 
+* Lab can either be 50 minutes or 1:50h (e.g. a double lab).
+
+
