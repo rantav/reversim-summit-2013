@@ -12,4 +12,5 @@ app.controller('AboutCtrl', ['$scope', '$http', 'data' ,function($scope, $http, 
   $scope.editUrl = data.getDataSheetHumanUrl(sheet);
   $scope.speakerName = "";
   $scope.permalinkable = false;
+  $scope.query = "";
 }]);
