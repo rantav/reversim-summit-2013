@@ -8,7 +8,7 @@ TypeError: 'undefined' is not an object (evaluating 'a.length')
 # FB.getLoginStatus() called before calling FB.init(). (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Sat Dec 15 2012 22:10:51 GMT+0200 (IST)
+# Time: Sun Dec 16 2012 09:13:14 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: /#/
@@ -47,6 +47,7 @@ http://connect.facebook.net/en_US/all.js
 /images/96085fa2.ran.png
 /images/9a824b45.arik.jpg
 /images/9cc6609b.glyphicons-halflings.png
+/images/9f2cbcaa.alongolan.png
 /images/9f4d11db.hayim.jpg
 /images/ab3ffa57.ronen.png
 /images/ae1c727d.yoav.png
@@ -78,9 +79,9 @@ https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.iw.IJfduHvOSGY.O/m=plus
 https://apis.google.com/js/plusone.js
 https://fonts.googleapis.com/css?family=Chivo:900
 scripts/2caaede1.scripts.js
-styles/43d8041d.main.css
+styles/42ac6b22.main.css
 styles/9a35457b.print.css
 
 NETWORK:
 *
-# git rev: a76cb321513d76e343504b0830dfc5874fbd2214
+# git rev: 450acedfa3448e0121f2480cf096ad3cc57bc88e
