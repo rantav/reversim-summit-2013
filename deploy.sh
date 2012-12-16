@@ -7,7 +7,7 @@ fi
 
 function remove_from_manifest() {
   local remove=$1
-  grep -v $remove dist/manifest.appcache > dist/manifest.appcache.tmp
+  grep -v "$remove" dist/manifest.appcache > dist/manifest.appcache.tmp
   mv dist/manifest.appcache.tmp dist/manifest.appcache
 }
 
@@ -18,6 +18,11 @@ yeoman build
 sed -i.bak 's/http:\/\/localhost:3501//g' dist/manifest.appcache
 rm dist/manifest.appcache.bak
 remove_from_manifest "spreadsheets.google.com"
+remove_from_manifest "sharethis"
+remove_from_manifest "static.ak.fbcdn.net"
+remove_from_manifest "connect.facebook.net"
+remove_from_manifest "(undefined, #undefined)"
+remove_from_manifest "apis.google.com"
 echo "# git rev: `git rev-parse HEAD`" >> dist/manifest.appcache
 echo "<!-- Built on `date`,     git rev: `git rev-parse HEAD` -->" >> dist/index.html
 git add .
