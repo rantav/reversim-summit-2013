@@ -1,14 +1,6 @@
-TypeError: 'undefined' is not an object (evaluating 'a.length')
-
-  http://s.sharethis.com/loader.js:1
-  http://s.sharethis.com/loader.js:1
-  http://s.sharethis.com/loader.js:1
-  http://s.sharethis.com/loader.js:1
-  http://s.sharethis.com/loader.js:1
-# FB.getLoginStatus() called before calling FB.init(). (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Mon Dec 17 2012 00:24:55 GMT+0200 (IST)
+# Time: Mon Dec 17 2012 00:48:57 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: /#/
@@ -29,7 +21,6 @@ CACHE MANIFEST
 #  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
-http://connect.facebook.net/en_US/all.js
 /images/04dfaeb4.greenido.png
 /images/117a4717.iris.png
 /images/264aca58.raboy.jpg
@@ -61,26 +52,7 @@ http://connect.facebook.net/en_US/all.js
 /images/e4637202.moshe.png
 /images/f00f7109.hr.png
 /images/f745de3a.shaiyalin.jpg
-http://s.sharethis.com/loader.js
-http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif
-http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif
-http://static.ak.fbcdn.net/rsrc.php/v2/yL/x/i_oIVTKMYsL.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yP/x/bSOHtKbCGYI.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yc/x/3rhSv5V8j3o.gif
-http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png
-http://w.sharethis.com/button/buttons.js
-http://w.sharethis.com/button/css/buttons.20a85a6a67053717023e8d12a9dba430.css
-http://w.sharethis.com/images/check-big.png
-http://w.sharethis.com/images/twitter_counter.png
-http://w.sharethis.com/share4x/images/Twitter_arrow_below.png
-http://wd-edge.sharethis.com/button/checkOAuth.esi
-http://wd.sharethis.com/api/getCount2.php?cb=stButtons.processCB&refDomain=&refQuery=&pgurl=http%3A%2F%2Flocalhost%3A3501%2F%23%2F&pubKey=a6d4f7ba-cc36-4a95-9212-5551d30c3d8c&url=http%3A%2F%2Flocalhost%3A3501%2F%23%2F
 http://www.google-analytics.com/ga.js
-https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.iw.IJfduHvOSGY.O/m=plusone/am=gQ/rt=j/d=1/rs=AItRSTMiTB0Ziqxi5f8zWX6OLM1MttutuQ/cb=gapi.loaded_0
-https://apis.google.com/js/plusone.js
 https://fonts.googleapis.com/css?family=Chivo:900
 scripts/2caaede1.scripts.js
 styles/9a35457b.print.css
@@ -88,4 +60,4 @@ styles/b5db3748.main.css
 
 NETWORK:
 *
-# git rev: 77cdfb4dbc07e8f2e76925e0213479ff1646923d
+# git rev: 315ed7ded032d28a914fef57705ad7bacbd224e1
