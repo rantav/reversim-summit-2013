@@ -30,7 +30,7 @@ filter('orFilter', function() {
 }).
 filter('markdown', function() {
   return function(input) {
-    return markdown.toHTML(input);
+    return input ? markdown.toHTML(input) : "";
   };
 });
 
