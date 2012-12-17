@@ -1,6 +1,6 @@
 Backbone Architecture With Youtube
 ==================================
-This is a talk that will reveal an open source project - media player that is based on feeds from youtube. The talk will focus on the architecture implemented in this project with Backbone - all using Backbone.js built in features.
+This is a talk that will reveal an open source project - [Echoes](http://orizens.github.com/echoes)media player that is based on feeds from youtube. The talk will focus on the architecture implemented in this project with Backbone - all using Backbone.js built in features.
 Attendees will see how easy it is to apply correct & concise Front End architecture as well as  continuos integration with backbone.js.
 This talk will be based on [Tikal's Backbone Workshop](http://www.slideshare.net/tikalknowledge/tikals-backbonejs-introduction-workshop)
 
