@@ -7,5 +7,5 @@ I'm going to show how Storm is the "Realtime Hadoop" that provides the missing p
 
 Shay Elkin
 ==========
-Shay is passionate about learning from data, and spends his days (and some nights,) hacking on [Cemmerce](http://www.cemmerce.com)'s algorithms.
+Shay is passionate about learning from data, and spends his days (and more nights than he'd like to admit,) hacking on [Cemmerce](http://www.cemmerce.com)'s algorithms.
 
