@@ -1,9 +1,11 @@
 Introduction to Storm
 =====================
-[Storm](https://github.com/nathanmarz/storm) is a distributed and fault-tolerant system for doing realtime computations.
-It provides an elegant solution to a problem bugging those of us who work with big data: we have the resources to batch process gargantuan amount of bits, but lacked the tools to handle that data in realtime.
+[Storm](https://github.com/nathanmarz/storm) is a distributed and fault-tolerant system for doing realtime computations. 
 
-I'm going to show how and why Storm is the "Realtime Hadoop" that provides the missing piece of a simple, reliable, and _fun_ framework for streaming computations.
+Released as FOSS by Twitter, it gained the nickname "Realtime Hadoop" by providing an elegant solution to a problem hunting those of us who process gargantuan amount of bits: having results as fast as possible (faster than batch processing would allow.)
+
+I'm going to show how and why Storm is the piece you are missing, and how it provides a _simple_, _reliable_, and _fun_ framework for streaming computations that helps you keep your results fresh, just like it already does in the [many production environments](https://github.com/nathanmarz/storm/wiki/Powered-By) already powered by it.
+
 
 Shay Elkin
 ==========
