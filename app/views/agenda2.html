@@ -11,16 +11,23 @@
   </thead>
   <tbody>
     <tr ng-repeat="slot in agenda">
-      <td><span class="badge">Day {{slot.day}}</span> - {{slot.time}}</td>
-      <!-- <td><a href="#/sessions/{{slot.room1}}">{{slot.room1}}</a></td> -->
-      <td>{{slot.room1.Subject}}, {{slot.room1.Speaker}}</td>
+      <td>
+        <span class="badge">Day {{slot.day}}</span>
+        <span class="label label-info">{{slot.time}}</span></td>
+      <td>
+         <span class="label">{{slot.room1.Track}}</span>
+         <a href="#/sessions/{{slot.room1.Subject}}">{{slot.room1.Subject}}</a>
+         <a href="#/speakers/{{slot.room1.Speaker}}" title="{{slot.room1.Speaker}}">
+           <div class="speaker-image-small {{slot.room1.css}} pull-right img-circle media-object">&nbsp;</div>
+         </a>
+      </td>
       <td>
          <span class="label">{{slot.room2.Track}}</span>
          <a href="#/sessions/{{slot.room2.Subject}}">{{slot.room2.Subject}}</a>
          <a href="#/speakers/{{slot.room2.Speaker}}" title="{{slot.room2.Speaker}}">
            <div class="speaker-image-small {{slot.room2.css}} pull-right img-circle media-object">&nbsp;</div>
          </a>
-       </td>
+      </td>
       <td>{{slot.lab}}</td>
     </tr>
   </tbody>
