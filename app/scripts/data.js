@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('data', []).
+angular.module('data', ['ng']).
   factory('data', function() {
     var SHEET = '0AngbRXPzHA7adDRoeDFVRkZ1UEY5SXBwSjdSLU1nX2c';
     var SPREADSHEETS_API = 'http://spreadsheets.google.com/feeds/cells/';
@@ -63,6 +63,31 @@ angular.module('data', []).
       },
       isFirstRow: function(id) {
         return id.indexOf("R1C") == 0;
+      },
+      /**
+       * @param target{Array#Object} the object to enrich
+       * @param enrichment{Array#Object} the objects used for enrichment
+       * @param enrichedFields{Array#Array} an array of [key1, key2] objects
+       *        which are used as a foreign key for enrichment
+       * @return {Array#Object} A copy of target with enriched fields, if found,
+       *         from the enrichment collection
+       */
+      enrich: function(target, enrichment, enrichedFields) {
+        target = angular.copy(target);
+        for (var i = target.length - 1; i >= 0; i--) {
+          var elem = target[i];
+          for (var j = enrichedFields.length - 1; j >= 0; j--) {
+            var field = enrichedFields[j];
+            var left = field[0];
+            var right = field[1];
+            var leftVal = elem[left];
+            var rightVals = enrichment.filter(function (e) {return e[right] == leftVal});
+            if (rightVals && rightVals[0]) {
+              elem[left] = rightVals[0];
+            }
+          };
+        };
+        return target;
       }
     }
   });

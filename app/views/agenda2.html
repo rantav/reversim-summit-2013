@@ -1,0 +1,27 @@
+<h1>Agenda</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Room 1</th>
+      <th>Room 2</th>
+      <th>Lab</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="slot in agenda">
+      <td><span class="badge">Day {{slot.day}}</span> - {{slot.time}}</td>
+      <!-- <td><a href="#/sessions/{{slot.room1}}">{{slot.room1}}</a></td> -->
+      <td>{{slot.room1.Subject}}, {{slot.room1.Speaker}}</td>
+      <td>
+         <span class="label">{{slot.room2.Track}}</span>
+         <a href="#/sessions/{{slot.room2.Subject}}">{{slot.room2.Subject}}</a>
+         <a href="#/speakers/{{slot.room2.Speaker}}" title="{{slot.room2.Speaker}}">
+           <div class="speaker-image-small {{slot.room2.css}} pull-right img-circle media-object">&nbsp;</div>
+         </a>
+       </td>
+      <td>{{slot.lab}}</td>
+    </tr>
+  </tbody>
+</table>
