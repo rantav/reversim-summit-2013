@@ -2,6 +2,7 @@
 
 app.controller('Agenda2Ctrl', ['$scope', '$http', 'data', '$routeParams',
     function($scope, $http, data, $routeParams) {
+  $('.popover').hide();
   var enrich = function() {
     if ($scope.agenda && $scope.sessions) {
       $scope.agenda = data.enrich($scope.agenda, $scope.sessions,

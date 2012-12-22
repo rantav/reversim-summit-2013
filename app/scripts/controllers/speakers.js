@@ -1,8 +1,8 @@
 'use strict';
 
 app.controller('SpeakersCtrl', ['$scope', '$http', 'data', '$routeParams' ,function($scope, $http, data, $routeParams) {
-
-   var enrich = function() {
+  $('.popover').hide();
+  var enrich = function() {
     if ($scope.people && $scope.sessions) {
       for (var i = $scope.people.length - 1; i >= 0; i--) {
         var p = $scope.people[i];

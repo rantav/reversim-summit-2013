@@ -1,7 +1,7 @@
 'use strict';
 
-
 app.controller('AboutCtrl', ['$scope', '$http', 'data' ,function($scope, $http, data) {
+  $('.popover').hide();
   var sheet = 1;
   $http.jsonp(data.getDataSheetUrl(sheet)).success(function(returned) {
     $scope.people = data.parseFromSpreadsheet(returned);
