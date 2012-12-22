@@ -5,7 +5,13 @@
 </div>
 <div ng-repeat="s in sessions | orFilter:[{Status: 'pending'}, {Status: 'confirmed'}, {Status: 'accepted'}] | filter:{Subject: sessionName} | filter:query">
   <hr/>
-  <a rel="tooltip" title="{{s.Speaker}}" href="#/speakers/{{s.Speaker}}"><div class="speaker-image-small {{s.css}} pull-right img-circle media-object">&nbsp;</div></a>
+  <a href="#/speakers/{{s.Speaker.name}}">
+    <div class="popoverable speaker-image-small {{s.Speaker.css}} pull-right img-circle media-object"
+         data-title="{{s.Speaker.name}}"
+         data-content="{{s.Speaker.bio | markdown}}"
+         data-trigger="hover"
+         data-html="true">&nbsp;</div>
+  </a>
   <h4><a href="#/sessions/{{s.Subject}}">{{s.Subject}}</a></h4>
   <span class="label track-label">{{s.Track}}</span> <span class="media-body" ng-bind-html-unsafe="s.Abstract | markdown"></span>
 </div>
