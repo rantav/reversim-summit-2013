@@ -3,5 +3,16 @@
   <h4 class="media-heading" ng-hide="permalinkable" >{{p.name}}</h4>
   <div class="speaker-image {{p.css}} pull-right img-circle media-object">&nbsp;</div>
   <span ng-show="p.role" class="label track-label">{{p.role}}</span> <div class="media-body" ng-bind-html-unsafe="p.bio | markdown"></div>
+  <ul ng-show="p.sessions">
+    <li ng-repeat="s in p.sessions"
+        class="popoverable"
+        data-title="{{s.Subject}}"
+        data-content="{{s.Abstract | markdown}}"
+        data-trigger="hover"
+        data-placement="top"
+        data-html="true">
+      <a href="#/sessions/{{s.Subject}}">{{s.Subject}}</a>
+    </li>
+  </ul>
 </div>
 
