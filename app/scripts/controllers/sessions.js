@@ -6,6 +6,11 @@ app.controller('SessionsCtrl', ['$scope', '$http', 'data', '$routeParams' ,
     if ($scope.people && $scope.sessions) {
       $scope.sessions = data.enrich($scope.sessions, $scope.people,
         [['Speaker', 'name']]);
+      setTimeout(function() {
+        // This is ugly, I know, but I just couldn't get the correct way
+        // to work for me (using directives)
+        $(".popoverable").popover();
+      }, 1000);
     }
   }
 
