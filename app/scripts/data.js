@@ -83,7 +83,7 @@ angular.module('data', ['ng']).
             var leftVal = elem[left];
             var rightVals = enrichment.filter(function (e) {return e[right] == leftVal});
             if (rightVals && rightVals[0]) {
-              elem[left] = rightVals[0];
+              elem[left] = rightVals.length == 1 ? rightVals[0] : rightVals;
             }
           };
         };
