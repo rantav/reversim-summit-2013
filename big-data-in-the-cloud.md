@@ -16,8 +16,9 @@ Nati Shalom
 ==============
 CTO & Founder GigaSpaces - Frequent blogger and speaker on BigData and Cloud technologies
 
-
 Speaker References
 ==================
 *[Blog](http://natishalom.typepad.com)
 *[Twitter](twitter.com/natishalom)
+*[Top Cloud Computing Bloggers for CIO’s](http://www.enterprisecioforum.com/en/article/top-10-cloud-computing-bloggers?utm_source=PC&utm_medium=CT&utm_campaign=ecf)
+*[Ycombinator excellent blogs by *technical founders*](http://news.ycombinator.com/item?id=4133981)
