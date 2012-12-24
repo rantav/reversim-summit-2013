@@ -15,4 +15,6 @@ In this talk I will describe the experience we had with scaling our click tracki
 Lior Harel
 =========================================================
 A happy programmer from Haifa, currently working in Kenshoo as a Software architect.
-Working mainly in Java but loves tested code, scalability problems, and dev-ops challenges
+Working mainly in Java and Python, loves tested code, scalability problems, and dev-ops challenges
+
+[LinkedIn](http://lnkd.in/XEnXYs)
