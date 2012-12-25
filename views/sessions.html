@@ -13,5 +13,7 @@
          data-html="true">&nbsp;</div>
   </a>
   <h4><a href="#/sessions/{{s.Subject}}">{{s.Subject}}</a></h4>
-  <span class="label track-label">{{s.Track}}</span> <span class="media-body" ng-bind-html-unsafe="s.Abstract | markdown"></span>
+  <span ng:show="s.Track == 'lab'" class="label track-label label-warning">L&nbsp;A&nbsp;B</span>
+  <span ng:hide="s.Track == 'lab'" class="label track-label">{{s.Track}}</span>
+  <span class="media-body" ng-bind-html-unsafe="s.Abstract | markdown"></span>
 </div>
