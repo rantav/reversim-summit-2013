@@ -1,0 +1,5 @@
+# Bio
+
+Designer, developer, djangonaut, geek. Idan likes to find ways to bridge the worlds of development and the many other design-related issues which affect product: interaction, information architecture, and visual design. Idan hacks on a variety of open-source projects, and is a core developer of the [Django web framework](http://djangoproject.org). As Django's “benevolent designer for life”, tries to make the project an example of cooperation between developers and designers in the open source community.
+
+Idan occasionally writes longform at [gazit.me](http://gazit.me), where links to his other activities around the web can be found. He tweets as [@idangazit](http://twitter.com/idangazit), shares code on [github](http://github.com/idan) and resides in the warm mediterranean paradise of Tel Aviv, geeking out with his wife and two daughters.
