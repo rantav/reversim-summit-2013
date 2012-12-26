@@ -28,7 +28,13 @@
            <div class="speaker-image-small {{slot.room2.css}} pull-right img-circle media-object">&nbsp;</div>
          </a>
       </td>
-      <td>{{slot.lab}}</td>
+      <td>
+         <span class="label">{{slot.lab.Track}}</span>
+         <a href="#/sessions/{{slot.lab.Subject}}">{{slot.lab.Subject}}</a>
+         <a href="#/speakers/{{slot.lab.Speaker}}" title="{{slot.lab.Speaker}}">
+           <div class="speaker-image-small {{slot.lab.css}} pull-right img-circle media-object">&nbsp;</div>
+         </a>
+    </td>
     </tr>
   </tbody>
 </table>
