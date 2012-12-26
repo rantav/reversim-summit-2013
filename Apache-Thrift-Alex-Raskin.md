@@ -20,7 +20,7 @@ Thrift is a remote procedure call framework developed at Facebook for "scalable 
 
 Alexander Raskin
 ----
-is an experienced software engineer, a smiling guy passionate about code quality and craftsmanship, cutting edge technologies, automation of routine tasks and psychology of education that is willing to share his thrilling excitement about Thrift.  
+is an experienced software engineer, a smiling guy passionate about code quality and craftsmanship, cutting edge technologies, automation of routine tasks and psychology of education who is willing to share his thrilling excitement about Thrift.  
 
 He has been speaking at the   
 [first Israeli PHP conference](http://phpguide.co.il/%D7%A1%D7%99%D7%9B%D7%95%D7%9D+%D7%9B%D7%A0%D7%A1+%D7%9E%D7%A4%D7%AA%D7%97%D7%99+PHP.htm)  
