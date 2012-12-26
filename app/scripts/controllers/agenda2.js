@@ -6,7 +6,7 @@ app.controller('Agenda2Ctrl', ['$scope', '$http', 'data', '$routeParams',
   var enrich = function() {
     if ($scope.agenda && $scope.sessions) {
       $scope.agenda = data.enrich($scope.agenda, $scope.sessions,
-        [['room1', 'Subject'], ['room2', 'Subject']]);
+        [['room1', 'Subject'], ['room2', 'Subject'], ['lab', 'Subject']]);
     }
   }
   var sessionsSheet = 3;
