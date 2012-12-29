@@ -1,7 +1,7 @@
 Vagrant - the whole Data Center on your laptop
 ===========================
 
-[Vagrant](http://vagrantup.com/) is a lightweight portable virtual environment, it lets you run 
+[Vagrant](http://vagrantup.com/) is a lightweight portable virtual environment, it is a wrapper around virtualbox that lets you write and test deployment and proviosining scripts on your local machine.
 
 In this lab we'll give give a brief introduction to vagrant and puppet, then we'll setup a virtual box and a puppet module to provision and configure your favorite cloud service on your laptop
 
