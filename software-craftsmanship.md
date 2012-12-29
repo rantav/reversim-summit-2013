@@ -10,4 +10,6 @@ Sandro started coding at a very young age but just started his professional care
 
 Speaker References
 ==================
+[Slides for this presentation](http://www.slideshare.net/sandromancuso/software-craftsmanship-12676551)   
+
 [Full list of Presentations, Interviews, ScreenCasts and Articles](http://craftedsw.blogspot.co.uk/p/presentations-interviews-and-articles.html)

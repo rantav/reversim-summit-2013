@@ -10,5 +10,5 @@ Sandro started coding at a very young age but just started his professional care
 
 Speaker References
 ==================
-[Screencast for this presentation](https://www.youtube.com/watch?feature=player_embedded&v=_NnElPO5BU0). If selected, I can  easily present it in 50 to 60 minutes instead of 77 minutes like in the screencast. 
+[Screencast for this presentation](https://www.youtube.com/watch?feature=player_embedded&v=_NnElPO5BU0). If selected, I can  easily present it in 50 to 60 minutes instead of 77 minutes like in the screencast.     
 [Full list of Presentations, Interviews, Screencasts and Articles](http://craftedsw.blogspot.co.uk/p/presentations-interviews-and-articles.html)
