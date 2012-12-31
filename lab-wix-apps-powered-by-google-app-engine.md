@@ -1,19 +1,24 @@
 Lab: Wix Apps powered by Google App Engine
 ==================================
-Since 2008 more than 28 million websites have been built using Wix' state-of-industry, drag-and-drop web building editor. Renowned for its creative, no-coding-needed flexibility, small businesses and individuals have flocked to the Wix platform. More than 4 million people engage with the editor each month, publishing more than 1 million new websites during that same timeframe.
+Since 2008 more than 29 million websites have been built using Wix' industry leading, drag-and-drop web publishing platform. 
+Renowned for its creative, no-coding-needed flexibility, small businesses and individuals have flocked to Wix to build their websites. 
+Each month more than 4 million people engage with the Wix editor and publish over 1 million new websites.
 
-With this as a foundation, a massive new web developer opportunity presented itself in October of 2012 as the the Wix App Market launched and was integrated within the Wix editor. How big an opportunity? At present there are more than 300,000 app installations through the Wix App Market every month. Currently, with less than 70 apps in the App Market, the the average app is getting more than 3,000 installations per month.
+In October 2012 Wix created a massive new web developer opportunity with the launch of the Wix App Market, enabling a seamless integration 
+of third party apps into the Wix platform. How big an opportunity? With Wix' massive user-base, 2 months from launch, the App Market is 
+already generating more than 300,000 app installations every month. Currently, with less than 70 apps in the Wix App Market, the average 
+app is getting more than 3,000 installations per month.
 
-In this lab, we will explore building a Wix App using Google App Engine (GAE) as a foundation. We will explore building and deploying web applications with GAE, building and deploying Wix Apps based on GAE and publishing apps into Wix.com. 
-We will go over all the major components of building Wix Apps, including backend, frontend and App Market integrations as well as billing solutions.
+In this lab, we will explore building a Wix App using Google App Engine (GAE) and demonstrate how to deploy and publish the apps into Wix.com. 
+We will review all the major components of building a Wix app, including back-end, front-end, App Market integration and billing solutions.
 
 The Lab will be based on the GAE Java APIs. Prior experience with Java is required, but no prior knowhow with GAE is needed.
 
 Yoav Abrahami
 ================
-Working with developers and operations on building wix future products as well as accelerating and improving
-development processes, Yoav takes the role of Chief Architect. Prior to joining Wix.com, Yoav was an Architect at Amdocs Cramer OSS division.
-Yoav has a MS in Physics and BS in Computer Science from Tel Aviv University.
+Yoav is the Chief Architect at Wix.com, working with developers and operations to build the company's future products 
+as well as accelerating and improving development processes. Prior to joining Wix, Yoav was an Architect at Amdocs Cramer OSS division.
+Yoav holds a MS in Physics and a BS in Computer Science from the Tel Aviv University.
 
 References
 ===
