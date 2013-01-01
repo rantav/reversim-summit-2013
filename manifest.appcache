@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Tue Jan 01 2013 17:18:01 GMT+0200 (IST)
+# Time: Tue Jan 01 2013 23:41:27 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: /#/
@@ -23,6 +23,7 @@ CACHE MANIFEST
 CACHE:
 /images/04dfaeb4.greenido.png
 /images/0fa89a16.israel.jpg
+/images/0fc25e2a.alexw.jpg
 /images/117a4717.iris.png
 /images/17eea08a.baruch.jpg
 /images/2026ca98.yaronw.jpg
@@ -87,8 +88,8 @@ http://www.google-analytics.com/ga.js
 https://fonts.googleapis.com/css?family=Chivo:900
 scripts/d2b99c23.scripts.js
 styles/9a35457b.print.css
-styles/ed47467f.main.css
+styles/d4dc648d.main.css
 
 NETWORK:
 *
-# git rev: 58d92b96e63b6f8949ddb96b604d4a54d691ca5b
+# git rev: f988088d0d6ecd6061dfa83a3b81f6366d41b91d
