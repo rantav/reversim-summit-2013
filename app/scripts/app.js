@@ -23,6 +23,10 @@ var app = angular.module('app', ['data', 'filters'])
         templateUrl: 'views/cfp.html',
         controller: 'CfpCtrl'
       })
+      .when('/vote', {
+        templateUrl: 'views/vote.html',
+        controller: 'VoteCtrl'
+      })
       .when('/speakers', {
         templateUrl: 'views/speakers.html',
         controller: 'SpeakersCtrl'
