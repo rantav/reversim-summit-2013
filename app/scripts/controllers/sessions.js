@@ -3,6 +3,8 @@
 app.controller('SessionsCtrl', ['$scope', '$http', 'data', '$routeParams' ,
       function($scope, $http, data, $routeParams) {
   $('.popover').hide();
+  $('.animated').removeClass('bounceIn');
+  $('#sessions').addClass('bounceIn');
   var enrich = function() {
     if ($scope.people && $scope.sessions) {
       $scope.sessions = data.enrich($scope.sessions, $scope.people,
