@@ -17,4 +17,10 @@ $sponsor_width: 250px;
     height: 250px;
     display: block;
   }
+  .google {
+    background: image-url("/images/google.png");
+    width: $sponsor_width;
+    height: 86px;
+    display: block;
+  }
 }
