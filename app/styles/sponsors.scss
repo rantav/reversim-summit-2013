@@ -1,0 +1,20 @@
+$sponsor_width: 250px;
+
+.sponsors {
+  margin-top: 35px;
+  dd {
+    margin-top: 20px;
+  }
+  .outbrain {
+    background: image-url("/images/outbrain.png");
+    width: $sponsor_width;
+    height: 47px;
+    display: block;
+  }
+  .astrails {
+    background: image-url("/images/astrails.png");
+    width: $sponsor_width;
+    height: 250px;
+    display: block;
+  }
+}
