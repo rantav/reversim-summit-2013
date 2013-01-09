@@ -1,0 +1,29 @@
+/* line 3, ../../app/styles/sponsors.scss */
+.sponsors {
+  margin-top: 35px;
+}
+/* line 5, ../../app/styles/sponsors.scss */
+.sponsors dd {
+  margin-top: 20px;
+}
+/* line 8, ../../app/styles/sponsors.scss */
+.sponsors .outbrain {
+  background: url(/images/5f5469cd.outbrain.png);
+  width: 250px;
+  height: 47px;
+  display: block;
+}
+/* line 14, ../../app/styles/sponsors.scss */
+.sponsors .astrails {
+  background: url(/images/067921d5.astrails.png);
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+/* line 20, ../../app/styles/sponsors.scss */
+.sponsors .google {
+  background: url(/images/7b582a3a.google.png);
+  width: 250px;
+  height: 86px;
+  display: block;
+}
