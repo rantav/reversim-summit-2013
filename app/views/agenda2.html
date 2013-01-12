@@ -1,5 +1,6 @@
 <h1>Agenda</h1>
 <script id="partials/agenda-cell.html" type="text/ng-template">
+
   <div ng-show="cell == 'Lunch'" class="badge badge-success">
     <i class="icon-glass icon-white"></i> Lunch
   </div>
@@ -9,13 +10,20 @@
   <div ng-show="cell == 'cont'" class="badge">
     <i class="icon-arrow-up icon-white"></i> Continue
   </div>
+
   <span class="badge" ng-show="cell.Track">{{cell.Track}}</span>
   <a href="#/speakers/{{cell.Speaker}}" title="{{cell.Speaker}}">
     <div class="speaker-image-small {{cell.css}} pull-right img-circle media-object">&nbsp;</div>
   </a>
   <dl>
     <dt>
-      <a href="#/sessions/{{cell.Subject}}">{{cell.Subject}}</a>
+      <a href="#/sessions/{{cell.Subject}}" class="popoverable"
+        data-title="{{cell.Subject}}"
+        data-content="{{cell.Abstract | markdown}}"
+        data-trigger="hover"
+        data-html="true">
+          {{cell.Subject}}
+      </a>
     </dt>
     <di>
       <a href="#/speakers/{{cell.Speaker}}" title="{{cell.Speaker}}">

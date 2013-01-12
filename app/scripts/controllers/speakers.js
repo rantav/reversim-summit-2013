@@ -15,7 +15,6 @@ app.controller('SpeakersCtrl', ['$scope', '$http', 'data', '$routeParams' ,funct
         // to work for me (using directives)
         $(".popoverable").popover();
       }, 1000);
-
     }
   }
 

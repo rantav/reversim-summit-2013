@@ -9,6 +9,12 @@ app.controller('Agenda2Ctrl', ['$scope', '$http', 'data', '$routeParams',
     if ($scope.agenda && $scope.sessions) {
       $scope.agenda = data.enrich($scope.agenda, $scope.sessions,
         [['room1', 'Subject'], ['room2', 'Subject'], ['lab', 'Subject']]);
+      setTimeout(function() {
+        // This is ugly, I know, but I just couldn't get the correct way
+        // to work for me (using directives)
+        $(".popoverable").popover();
+      }, 1000);
+
     }
   }
   var sessionsSheet = 3;
