@@ -1,26 +1,43 @@
-$sponsor_width: 250px;
+$sponsor_width: 200px;
 
 .sponsors {
-  margin-top: 35px;
+  margin: 0px 35px 35px 35px;
+  h2 {
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 50px;
+  }
   dd {
     margin-top: 20px;
+  }
+  .google {
+    background: image-url("/images/google.png");
+    width: $sponsor_width;
+    height: 69px;
+    display: block;
   }
   .outbrain {
     background: image-url("/images/outbrain.png");
     width: $sponsor_width;
-    height: 47px;
+    height: 38px;
     display: block;
   }
   .astrails {
     background: image-url("/images/astrails.png");
     width: $sponsor_width;
-    height: 250px;
+    height: 105px;
     display: block;
   }
-  .google {
-    background: image-url("/images/google.png");
+  .campustlv {
+    background: image-url("/images/campustlv.png");
     width: $sponsor_width;
-    height: 86px;
+    height: $sponsor_width;
+    display: block;
+  }
+  .picscout {
+    background: image-url("/images/picscout.png");
+    width: $sponsor_width;
+    height: 72px;
     display: block;
   }
 }
