@@ -1,40 +1,34 @@
 <h1>Agenda</h1>
-
+<script id="partials/agenda-cell.html" type="text/ng-template">
+  <span class="label">{{cell.Track}}</span>
+  <a href="#/sessions/{{cell.Subject}}">{{cell.Subject}}</a>
+  <a href="#/speakers/{{cell.Speaker}}" title="{{cell.Speaker}}">
+    <div class="speaker-image-small {{cell.css}} pull-right img-circle media-object">&nbsp;</div>
+  </a>
+</script>
 <table class="table">
   <thead>
     <tr>
       <th>Time</th>
-      <th>Room 1</th>
-      <th>Room 2</th>
+      <th>Room 1 (Large)</th>
+      <th>Room 2 (Small)</th>
       <th>Lab</th>
     </tr>
   </thead>
   <tbody>
     <tr ng-repeat="slot in agenda">
       <td>
-        <span class="badge">Day {{slot.day}}</span>
+        <span class="label label-info">Day {{slot.day}}</span>
         <span class="label label-info">{{slot.time}}</span></td>
       <td>
-         <span class="label">{{slot.room1.Track}}</span>
-         <a href="#/sessions/{{slot.room1.Subject}}">{{slot.room1.Subject}}</a>
-         <a href="#/speakers/{{slot.room1.Speaker}}" title="{{slot.room1.Speaker}}">
-           <div class="speaker-image-small {{slot.room1.css}} pull-right img-circle media-object">&nbsp;</div>
-         </a>
+         <agenda-cell cell="slot.room1"></agenda-cell>
       </td>
       <td>
-         <span class="label">{{slot.room2.Track}}</span>
-         <a href="#/sessions/{{slot.room2.Subject}}">{{slot.room2.Subject}}</a>
-         <a href="#/speakers/{{slot.room2.Speaker}}" title="{{slot.room2.Speaker}}">
-           <div class="speaker-image-small {{slot.room2.css}} pull-right img-circle media-object">&nbsp;</div>
-         </a>
+         <agenda-cell cell="slot.room2"></agenda-cell>
       </td>
       <td>
-         <span class="label">{{slot.lab.Track}}</span>
-         <a href="#/sessions/{{slot.lab.Subject}}">{{slot.lab.Subject}}</a>
-         <a href="#/speakers/{{slot.lab.Speaker}}" title="{{slot.lab.Speaker}}">
-           <div class="speaker-image-small {{slot.lab.css}} pull-right img-circle media-object">&nbsp;</div>
-         </a>
-    </td>
+         <agenda-cell cell="slot.lab"></agenda-cell>
+      </td>
     </tr>
   </tbody>
 </table>

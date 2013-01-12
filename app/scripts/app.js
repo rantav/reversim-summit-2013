@@ -51,3 +51,13 @@ var app = angular.module('app', ['data', 'filters'])
         redirectTo: '/'
       });
   }]);
+
+app.directive('agendaCell', function() {
+  return {
+    restrict: 'E',
+    scope: {
+      cell: '='
+    },
+    templateUrl: 'partials/agenda-cell.html'
+  };
+});
