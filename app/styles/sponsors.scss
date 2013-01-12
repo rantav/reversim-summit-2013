@@ -34,4 +34,10 @@ $sponsor_width: 200px;
     height: $sponsor_width;
     display: block;
   }
+  .picscout {
+    background: image-url("/images/picscout.png");
+    width: $sponsor_width;
+    height: 72px;
+    display: block;
+  }
 }
