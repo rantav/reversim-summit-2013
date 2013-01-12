@@ -1,20 +1,20 @@
 <h1>Agenda</h1>
 <script id="partials/agenda-cell.html" type="text/ng-template">
   <div ng-show="cell == 'Lunch'" class="badge badge-success">
-    Lunch
+    <i class="icon-glass icon-white"></i> Lunch
   </div>
   <div ng-show="cell == 'Keynote'" class="badge badge-warning">
-    Keynote
+    <i class="icon-arrow-left icon-white"></i> Keynote
   </div>
   <div ng-show="cell == 'cont'" class="badge">
-    Continue
+    <i class="icon-arrow-up icon-white"></i> Continue
   </div>
+  <span class="badge" ng-show="cell.Track">{{cell.Track}}</span>
   <a href="#/speakers/{{cell.Speaker}}" title="{{cell.Speaker}}">
     <div class="speaker-image-small {{cell.css}} pull-right img-circle media-object">&nbsp;</div>
   </a>
   <dl>
     <dt>
-      <span class="label" ng-show="cell.Track">{{cell.Track}}</span>
       <a href="#/sessions/{{cell.Subject}}">{{cell.Subject}}</a>
     </dt>
     <di>
