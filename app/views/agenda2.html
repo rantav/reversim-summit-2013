@@ -11,7 +11,7 @@
     <i class="icon-arrow-up icon-white"></i> Continue
   </div>
 
-  <span class="badge" ng-show="cell.Track">{{cell.Track}}</span>
+  <span class="badge" ng-show="cell.Track" ng-class="cell.className">{{cell.Track}}</span>
   <a href="#/speakers/{{cell.Speaker}}" title="{{cell.Speaker}}">
     <div class="speaker-image-small {{cell.css}} pull-right img-circle media-object">&nbsp;</div>
   </a>
