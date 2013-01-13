@@ -1,0 +1,36 @@
+/* line 2, ../../app/styles/agenda.scss */
+.agenda a {
+  color: #6D6D6D;
+}
+/* line 5, ../../app/styles/agenda.scss */
+.agenda .devops {
+  background-color: #555;
+}
+/* line 8, ../../app/styles/agenda.scss */
+.agenda .panel {
+  background-color: #655;
+}
+/* line 11, ../../app/styles/agenda.scss */
+.agenda .craftsmanship {
+  background-color: #775;
+}
+/* line 14, ../../app/styles/agenda.scss */
+.agenda .data {
+  background-color: #885;
+}
+/* line 17, ../../app/styles/agenda.scss */
+.agenda .product {
+  background-color: #959;
+}
+/* line 20, ../../app/styles/agenda.scss */
+.agenda .web {
+  background-color: #a5a;
+}
+/* line 23, ../../app/styles/agenda.scss */
+.agenda .mobile {
+  background-color: #5aa;
+}
+/* line 26, ../../app/styles/agenda.scss */
+.agenda .lab {
+  background-color: #55d;
+}
