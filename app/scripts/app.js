@@ -15,10 +15,6 @@ var app = angular.module('app', ['data', 'filters'])
         templateUrl: 'views/agenda.html',
         controller: 'AgendaCtrl'
       })
-      .when('/agenda2', {
-        templateUrl: 'views/agenda2.html',
-        controller: 'Agenda2Ctrl'
-      })
       .when('/cfp', {
         templateUrl: 'views/cfp.html',
         controller: 'CfpCtrl'
