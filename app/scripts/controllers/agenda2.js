@@ -28,6 +28,9 @@ function getClassName(track) {
   if (track.indexOf("lab") > -1) {
     return "lab";
   }
+  if (track.indexOf("KEYNOTE") > -1) {
+    return "keynote";
+  }
 
   return "";
 }
