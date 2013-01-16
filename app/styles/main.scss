@@ -43,7 +43,7 @@ footer {
 
 .googletlv {
   width: 310px;
-  height: 150px;
+  height: 141px;
   display: block;
   background: image-url("/images/googletlv.png");
 }
@@ -55,4 +55,8 @@ footer {
 
 .search-query {
   background-color: #E7E7F3;
+}
+
+dd {
+  font-weight: bolder;
 }
