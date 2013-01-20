@@ -9,5 +9,4 @@ I'm going to show how and why Storm is the piece you are missing, and how it pro
 
 Shay Elkin
 ==========
-Shay is passionate about learning from data, and spends his days (and more nights than he'd like to admit,) hacking on [Cemmerce](http://www.cemmerce.com)'s algorithms.
-
+Shay is a data scientist at [everything.me](http://everything.me), which fits him great, as he's  passionate about learning from data, even when not on the clock.
