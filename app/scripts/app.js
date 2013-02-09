@@ -43,6 +43,10 @@ var app = angular.module('app', ['data', 'filters'])
         templateUrl: 'views/sessions.html',
         controller: 'SessionsCtrl'
       })
+      .when('/info', {
+        templateUrl: 'views/info.html',
+        controller: 'InfoCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
