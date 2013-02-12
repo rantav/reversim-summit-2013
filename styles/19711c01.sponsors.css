@@ -1,0 +1,63 @@
+/* line 3, ../../app/styles/sponsors.scss */
+.sponsors {
+  margin: 0px 35px 35px 35px;
+}
+/* line 5, ../../app/styles/sponsors.scss */
+.sponsors h2 {
+  text-align: center;
+  font-size: 13pt;
+  margin-top: 50px;
+}
+/* line 10, ../../app/styles/sponsors.scss */
+.sponsors dd {
+  margin-top: 20px;
+}
+/* line 13, ../../app/styles/sponsors.scss */
+.sponsors .google {
+  background: url(/images/b987f428.google.png);
+  width: 200px;
+  height: 69px;
+  display: block;
+}
+/* line 19, ../../app/styles/sponsors.scss */
+.sponsors .outbrain {
+  background: url(/images/c5a39f18.outbrain.png);
+  width: 200px;
+  height: 38px;
+  display: block;
+}
+/* line 25, ../../app/styles/sponsors.scss */
+.sponsors .astrails {
+  background: url(/images/360fc163.astrails.png);
+  width: 200px;
+  height: 105px;
+  display: block;
+}
+/* line 31, ../../app/styles/sponsors.scss */
+.sponsors .campustlv {
+  background: url(/images/dbc6ce39.campustlv.png);
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+/* line 37, ../../app/styles/sponsors.scss */
+.sponsors .picscout {
+  background: url(/images/e045e8ea.picscout.png);
+  width: 200px;
+  height: 72px;
+  display: block;
+}
+/* line 43, ../../app/styles/sponsors.scss */
+.sponsors .wix {
+  background: url(/images/89fc1fdf.wix.jpeg);
+  width: 200px;
+  height: 83px;
+  display: block;
+}
+/* line 49, ../../app/styles/sponsors.scss */
+.sponsors .totango {
+  background: url(/images/21133a96.totango.png);
+  width: 200px;
+  height: 32px;
+  display: block;
+}
