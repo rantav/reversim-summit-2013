@@ -47,6 +47,10 @@ var app = angular.module('app', ['data', 'filters'])
         templateUrl: 'views/info.html',
         controller: 'InfoCtrl'
       })
+      .when('/speaker_info', {
+        templateUrl: 'views/speaker_info.html',
+        controller: 'SpeakerInfoCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
