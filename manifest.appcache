@@ -1,9 +1,6 @@
-# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3477f7714%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff1862ccdb8%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Flocalhost%3A3501%2F%23%2F&node_type=link&width=55&layout=box_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
-# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3477f7714%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff1862ccdb8%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Flocalhost%3A3501%2F%23%2F&node_type=link&width=55&layout=box_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
-# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3477f7714%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff1862ccdb8%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Flocalhost%3A3501%2F%23%2F&node_type=link&width=55&layout=box_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
 CACHE MANIFEST
 
-# Time: Tue Feb 19 2013 15:29:27 GMT+0200 (IST)
+# Time: Thu Mar 07 2013 01:12:29 GMT+0200 (IST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: /#/
